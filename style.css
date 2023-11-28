@@ -6,3 +6,148 @@ Author URI: https://www.site-auteur.fr/
 Description: développé via wordpress
 Version: 1.0
 */
+.list{
+    list-style: none;
+
+}
+.mainformer p{
+    margin-right: auto;
+    color: chartreuse;
+
+}
+.list li{
+    margin-left: 40px;
+    
+}
+header{
+    padding: 15px;
+    background-color: black;
+}
+.list a{
+    color: chartreuse;
+}
+.about{
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2023/11/carbon.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    color: chartreuse;
+    font-family: "tapestry";
+    font-size: 52px;
+}
+p{
+    color: white;
+}
+.btn{
+    color: chartreuse;
+}
+.about img{
+width: 100%;
+height: auto;
+}
+.header p{
+    margin-right: auto;
+    color: chartreuse;
+}
+.question{
+    color: chartreuse;
+    font-size: 52px;
+}
+.competences{
+    background-color: darkgray;
+}
+.competences h2{
+    text-align: center;
+    font-family: "tapestry";
+    font-size: 52px;
+    color: chartreuse;
+}
+.comp{
+    list-style: none;
+    font-size: 26px;
+    text-align: center;
+
+}
+
+.projet h2{
+    text-align: center;
+    font-family: tapestry;
+    font-size: 48px; 
+}
+.footer{
+   background-color: black;
+}
+footer p{
+    color: chartreuse;
+}
+
+.mainformer{
+    background-color: black;
+}
+.mainformer a{
+    color: chartreuse;
+    margin: 10px;
+}
+.mainformer a i{
+font-size: 50px;
+}
+.backbody{
+    background-image: url(../images/vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+}
+.titre{
+    color: white;
+    font-family: tapestry;
+    margin-top: 50px;
+}
+
+.formulaire label{
+    color: white;
+}
+.marge{
+    margin-top: 80px;
+}
+.formulaire button{
+    color: black;
+    background-color: chartreuse;
+}
+.formulaire button:hover{
+    background-color: chartreuse;
+    color: black;    
+}
+footer .mail i{
+    font-size: 30px;
+    margin: 5px;
+}
+.coordo{
+    margin-top: 60px;
+}
+body{
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2023/11/vector-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center; 
+}
+.aboutme h1{
+    color:chartreuse;
+    font-family: "tapestry";
+    font-size: 52px;
+}
+.comp p{
+    color: black;
+    font-size: 24px;
+}
+.parcours li{
+    color: chartreuse;
+}
+.color{
+    color: white;
+}
