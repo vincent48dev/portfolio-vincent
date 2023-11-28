@@ -1,7 +1,7 @@
 <?php wp_footer(); ?>
 <footer class="footer">
         <div class="container">
-            <div class="row text-center pt-5">
+            <div class="row text-center pb-5 pt-5">
                 <div class="col-4">
                     <p>Adresse Mail</p>
                     <p>vincentpuyestier@gmail.com</p>

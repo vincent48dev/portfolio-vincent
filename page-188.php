@@ -3,7 +3,7 @@
 get_header(); ?>
     
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-    <h3><?php the_title(); ?></h3>
+    
     <?php the_content(); ?>
     <section>
         <div class="container">
@@ -51,7 +51,7 @@ get_header(); ?>
                         <label for="message" class="form-label">Message</label>
                         <textarea class="form-control" id="message" rows="3"></textarea>
                         <div class="erreurmessage"></div>
-                        <button  class="btn border border-radius-5 mt-5" onclick="verify()">GO</button>
+                        <button  class="btn border border-radius-5 mb-5 mt-5" onclick="verify()">GO</button>
                       </div>
                 </div>
             </div>
