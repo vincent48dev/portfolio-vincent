@@ -151,3 +151,14 @@ body{
 .color{
     color: white;
 }
+.wpcf7-form-control{
+    color:black;
+    align-content: center;
+}
+p{
+    font-size: 20px;
+}
+ 
+.wpcf7-submit{
+margin-left: 80px;
+} 

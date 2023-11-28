@@ -6,7 +6,10 @@ get_header(); ?>
             <div class="row">
                 <div class="col-12 col-md-6 mt-5 animate__animated animate__backInLeft">
                     <h1 class="mb-5">Qui suis-je</h1>
-                    <p class="mt-4">Agé de 44 ans, j'ai pendant de nombreuses années exercé dans des métiers liés au commerce et la communication. Dans un souci constant de progresser, j'ai intégré une formation de développeur web afin d'acquérir des connaissances techniques. Le but de cette reconvertion étant de combiner mes différentes connaissances au sein d'une agence de communication située en martinique.</p>
+                    <p class="mt-4">
+                        <?php $post = get_post(217) ?>
+                        <?php echo $post->post_content ?>
+                    </p>
                     <a class="btn btn-secondary mt-5" href="#">A propos</a>
                 </div>
                 <div class="col-12 col-md-6 animate__animated animate__backInRight ">
