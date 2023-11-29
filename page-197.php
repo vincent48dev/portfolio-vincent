@@ -9,14 +9,15 @@ get_header(); ?>
         <div class="container">
             <div class="row mt-5">
                 <div class="col-12 col-md-6 animate__animated animate__backInLeft">
-                    <h1 class="ap mb-5">A propos</h1>
+                    <h1 class="ap mb-4">A propos</h1>
                     <p>
                         <?php $post = get_post(215) ?>
                         <?php echo $post->post_content ?>
                     </p>
-                    <a class="btn btn-secondary mt-5" href="contact.html">Contact</a>
+                    <a class="btn btn-secondary mt-5" href="http://localhost/wordpress/contact/">Contact</a>
                 </div>
                 <div class="col-12 col-md-6 animate__animated animate__backInRight">
+                 <!--   <img src="http://localhost/wordpress/wp-content/uploads/2023/11/dev.jpg" alt="dev">-->
                     <img src="http://localhost/wordpress/wp-content/uploads/2023/11/dev.jpg" alt="dev">
                 </div>
             </div>
@@ -26,21 +27,21 @@ get_header(); ?>
         <div class="container">
             <div class="row
              mt-5 d-flex justify-content-center">
-                <div class="col-12 col-md-6 pt-5">
+                <div class="col-12 col-md-6 pt-2">
                     <h2>Parcours Professionnel</h2>
                 </div>
             </div>
-            <div class="row pb-5 parcours">
+            <div class="row pb-2 parcours">
                 <div class="col-12 col-md-6">
-                    <ul class="comp mt-5 mb-5">
+                    <ul class="comp mt-2 mb-2">
                         <li>Formation</li>
-                        <p class="mt-4">BEP Vente<br>BAC Pro Commerce <br>BTS Force de Vente</p>
+                        <p class="mt-3">BEP Vente<br>BAC Pro Commerce <br>BTS Force de Vente</p>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6">
-                    <ul class="comp mt-5">
+                    <ul class="comp mt-2">
                         <li>Expériences</li>
-                        <p class="mt-4">Chargé de communication <br>Chef d'agence<br>Commercial</p>
+                        <p class="mt-2">Chargé de communication <br>Chef d'agence<br>Commercial</p>
                     </ul>
                 </div>
             </div>

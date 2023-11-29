@@ -10,22 +10,24 @@ get_header(); ?>
                         <?php $post = get_post(217) ?>
                         <?php echo $post->post_content ?>
                     </p>
-                    <a class="btn btn-secondary mt-5" href="#">A propos</a>
+                    <a class="btn btn-secondary mt-5" href="http://localhost/wordpress/a-propos/">A propos</a>
                 </div>
-                <div class="col-12 col-md-6 animate__animated animate__backInRight ">
-                    <img src="http://localhost/wordpress/wp-content/uploads/2023/11/vincent.png" alt="">
+                <div class="col-12 col-md-6 d-flex align-item-center animate__animated animate__backInRight ">
+                <!--    <img src="http://localhost/wordpress/wp-content/uploads/2023/11/vincent.png" alt=""> -->
+                    <img  src="http://localhost/wordpress/wp-content/uploads/2023/11/vincent.png" alt="">         
                 </div>
             </div>
         </div>
     </section>
+    <!-- -->
     <section class="competences">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 pt-5">
+            <div class="row mb-3">
+                <div class="col-12 pt-3">
                     <h2>Compétences</h2>
                 </div>
             </div>
-            <div class="row pb-5">
+            <div class="row pb-3">
                 <div class="col-md-6">
                     <ul class="comp">
                         <li>HTML</li>
