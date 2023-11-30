@@ -41,7 +41,7 @@ get_header(); ?>
                 <div class="col-12 col-md-6">
                     <ul class="comp mt-2">
                         <li>Expériences</li>
-                        <p class="mt-2">Chargé de communication <br>Chef d'agence<br>Commercial</p>
+                        <p class="mt-3">Chargé de communication <br>Chef d'agence<br>Commercial</p>
                     </ul>
                 </div>
             </div>
