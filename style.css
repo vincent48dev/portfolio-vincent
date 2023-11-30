@@ -26,6 +26,11 @@ header{
 .list a{
     color: chartreuse;
 }
+.list a:hover{
+    color:dodgerblue
+}
+
+
 .about{
     background-image: url(http://localhost/wordpress/wp-content/uploads/2023/11/carbon.jpg);
     background-size: cover;
@@ -45,9 +50,20 @@ p{
 .btn{
     color: chartreuse;
 }
+.btn-secondary:hover{
+    background-color: dodgerblue;
+}
+.aboutme img{
+    width: 780px;
+    height: 600px;
+    opacity: 40%;
+    border-radius: 30px;
+}
 .about img{
 width: 100%;
 height: auto;
+opacity: 60%;
+border-radius: 30px;
 }
 .header p{
     margin-right: auto;
@@ -58,18 +74,25 @@ height: auto;
     font-size: 52px;
 }
 .competences{
-    background-color: darkgray;
+    background-color: #2b2b2b
+}
+.competences ul{
+    font-weight: bold;
+}
+.competences ul p{
+    color: blanchedalmond;
 }
 .competences h2{
     text-align: center;
     font-family: "tapestry";
     font-size: 52px;
-    color: chartreuse;
+    color: chartreuse
 }
 .comp{
     list-style: none;
     font-size: 26px;
     text-align: center;
+    color: blanchedalmond;
 
 }
 
@@ -122,9 +145,18 @@ font-size: 50px;
     background-color: chartreuse;
     color: black;    
 }
+footer .titre{
+    font-weight: bolder;
+}
 footer .mail i{
     font-size: 30px;
     margin: 5px;
+}
+footer .mailto{
+    color: chartreuse;
+}
+footer .mailto:hover{
+    color: dodgerblue;
 }
 .coordo{
     margin-top: 60px;
@@ -157,15 +189,62 @@ p{
 } 
 .wpcf7-submit{
 margin-left: 75px;
+background-color: chartreuse;
 } 
 .wpcf7-form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .wpcf7-form input{
     border-radius: 15px;
+    
 }
 .wpcf7-form textarea{
     border-radius: 15px;
 }
+.wpcf7-submit:hover{
+  background-color: dodgerblue;
+    }
+.projet{
+    background-image: url(images/vector.jpg);
+    background-size: cover;
+}
+.card{
+    background-color: cadetblue;
+    border-radius: 30px;
+}
+.card-img1-top{
+    opacity: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.card-img2-top{
+    opacity: 80%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.card-img3-top{
+    opacity: 60%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.projet h2{
+    color: chartreuse;
+    text-shadow: black 1px 0 10px;
+
+}
+.card-text{
+    color: black;
+    font-size: 22px;
+}
+.card-title{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #2b2b2b; 
+}
+
+
+

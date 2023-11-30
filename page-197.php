@@ -34,13 +34,13 @@ get_header(); ?>
             <div class="row pb-2 parcours">
                 <div class="col-12 col-md-6">
                     <ul class="comp mt-2 mb-2">
-                        <li>Formation</li>
+                        <li>FORMATION</li>
                         <p class="mt-3">BEP Vente<br>BAC Pro Commerce <br>BTS Force de Vente</p>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6">
                     <ul class="comp mt-2">
-                        <li>Expériences</li>
+                        <li>EXPERIENCES</li>
                         <p class="mt-3">Chargé de communication <br>Chef d'agence<br>Commercial</p>
                     </ul>
                 </div>
