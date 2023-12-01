@@ -58,7 +58,7 @@ get_header(); ?>
                     <img src="http://localhost/wordpress/wp-content/uploads/2023/11/carbon.jpg" class="card-img1-top" alt="John Bonham">
                     <div class="card-body">
                     <h5 class="card-title text-center">BRIEF 1</h5>                    
-                    <a href="#" class="btn btn-secondary d-flex justify-content-center">Découvrir</a>
+                    <a href="https://github.com/vincent48dev/projetjohnbonham.git" class="btn btn-secondary d-flex justify-content-center" target="_blank">Découvrir</a>
                     </div>
                 </div>
             </div>
@@ -66,8 +66,8 @@ get_header(); ?>
                 <div class="card">
                     <img src="http://localhost/wordpress/wp-content/uploads/2023/11/carbon.jpg" class="card-img2-top" alt="reproduction d'un site">
                     <div class="card-body">
-                    <h5 class="card-title text-center">Reproduction d'un site</h5>
-                    <a href="#" class="btn btn-secondary d-flex justify-content-center">Découvrir</a>
+                    <h5 class="card-title text-center">Memory</h5>
+                    <a href="https://github.com/vincent48dev/memory.git" class="btn btn-secondary d-flex justify-content-center"target="_blank">Découvrir</a>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ get_header(); ?>
                     <img src="http://localhost/wordpress/wp-content/uploads/2023/11/carbon.jpg" class="card-img3-top" alt="Portfolio">
                     <div class="card-body">
                     <h5 class="card-title text-center">Portfolio</h5>
-                    <a href="#" class="btn btn-secondary d-flex justify-content-center">Découvrir</a>
+                    <a href="https://github.com/vincent48dev/Portfolio.git" class="btn btn-secondary d-flex justify-content-center" target="_blank">Découvrir</a>
                     </div>
                 </div>
             </div>
