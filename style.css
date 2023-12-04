@@ -6,3 +6,247 @@ Author URI: https://www.site-auteur.fr/
 Description: développé via wordpress
 Version: 1.0
 */
+.list{
+    list-style: none;
+
+}
+.mainformer p{
+    margin-right: auto;
+    color: chartreuse;
+
+}
+.list li{
+    margin-left: 40px;
+    
+}
+header{
+    padding: 15px;
+    background-color: black;
+}
+.list a{
+    color: chartreuse;
+}
+.list a:hover{
+    color:dodgerblue
+}
+
+
+.about{
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2023/11/carbon.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    color: chartreuse;
+    font-family: "tapestry";
+    font-size: 52px;
+}
+p{
+    color: white;
+}
+.btn{
+    color: chartreuse;
+}
+.btn-secondary:hover{
+    background-color: dodgerblue;
+}
+.aboutme img{
+    width: 780px;
+    height: 600px;
+    opacity: 40%;
+    border-radius: 30px;
+}
+.about img{
+width: 100%;
+height: auto;
+opacity: 60%;
+border-radius: 30px;
+}
+.header p{
+    margin-right: auto;
+    color: chartreuse;
+}
+.question{
+    color: chartreuse;
+    font-size: 52px;
+}
+.competences{
+    background-image: url(images/carbon.jpg);
+    background-size: cover;
+}
+.competences ul{
+    font-weight: bold;
+}
+.competences ul p{
+    color: blanchedalmond;
+}
+.competences h2{
+    text-align: center;
+    font-family: "tapestry";
+    font-size: 52px;
+    color: chartreuse;
+    
+}
+.comp{
+    list-style: none;
+    font-size: 26px;
+    text-align: center;
+    color: blanchedalmond;
+
+}
+
+.projet h2{
+    text-align: center;
+    font-family: tapestry;
+    font-size: 48px; 
+}
+.footer{
+   background-color: black;
+}
+footer p{
+    color: chartreuse;
+}
+
+.mainformer{
+    background-color: black;
+}
+.mainformer a{
+    color: chartreuse;
+    margin: 10px;
+}
+.mainformer a i{
+font-size: 50px;
+}
+.backbody{
+    background-image: url(../images/vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+}
+.titre{
+    color: white;
+    font-family: tapestry;
+    margin-top: 50px;
+}
+
+.formulaire label{
+    color: white;
+}
+.marge{
+    margin-top: 80px;
+}
+.formulaire button{
+    color: black;
+    background-color: chartreuse;
+}
+.formulaire button:hover{
+    background-color: chartreuse;
+    color: black;    
+}
+footer .titre{
+    font-weight: bolder;
+}
+footer .mail i{
+    font-size: 30px;
+    margin: 5px;
+}
+footer .mailto{
+    color: chartreuse;
+}
+footer .mailto:hover{
+    color: dodgerblue;
+}
+.coordo{
+    margin-top: 60px;
+}
+body{
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2023/11/vector-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center; 
+}
+.aboutme h1{
+    color:chartreuse;
+    font-family: "tapestry";
+    font-size: 52px;
+}
+.comp p{
+    color: black;
+    font-size: 24px;
+}
+.parcours li{
+    color: chartreuse;
+}
+.color{
+    color: white;
+}
+
+p{
+    font-size: 20px;
+} 
+.wpcf7-submit{
+margin-left: 75px;
+background-color: chartreuse;
+} 
+.wpcf7-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.wpcf7-form input{
+    border-radius: 15px;
+    
+}
+.wpcf7-form textarea{
+    border-radius: 15px;
+}
+.wpcf7-submit:hover{
+  background-color: dodgerblue;
+    }
+.projet{
+    background-image: url(images/vector.jpg);
+    background-size: cover;
+}
+.card{
+    background-color: cadetblue;
+    border-radius: 30px;
+}
+.card-img1-top{
+    opacity: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.card-img2-top{
+    opacity: 80%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.card-img3-top{
+    opacity: 60%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.projet h2{
+    color: chartreuse;
+    text-shadow: black 1px 0 10px;
+
+}
+.card-text{
+    color: black;
+    font-size: 22px;
+}
+.card-title{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #2b2b2b; 
+}
+
+
+
